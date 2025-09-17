@@ -1,0 +1,27 @@
+| Commando               | Wat het doet                                                    |
+| ---------------------- | --------------------------------------------------------------- |
+| `git clone <repo-URL>` | Kopieert de GitHub-repo naar je lokale computer                 |
+| `git status`           | Laat zien welke bestanden zijn veranderd of nog niet toegevoegd |
+| `git pull origin main` | Haalt de laatste wijzigingen van main op en werkt lokaal bij    |
+| Commando                       | Wat het doet                                    |
+| ------------------------------ | ----------------------------------------------- |
+| `git checkout -b feature/naam` | Maakt een nieuwe branch en schakelt ernaar over |
+| `git checkout main`            | Schakelt terug naar de main branch              |
+| `git branch`                   | Toont alle lokale branches                      |
+| `git branch -d feature/naam`   | Verwijdert een lokale branch na merge           |
+| Commando                       | Wat het doet                                             |
+| ------------------------------ | -------------------------------------------------------- |
+| `git add .`                    | Voegt alle nieuwe/wijzigingen toe aan de volgende commit |
+| `git commit -m "bericht"`      | Maakt een commit met een beschrijving van de wijziging   |
+| `git push origin feature/naam` | Stuurt je lokale branch naar GitHub                      |
+| Commando                   | Wat het doet                                                               |
+| -------------------------- | -------------------------------------------------------------------------- |
+| (GitHub) Open Pull Request | Laat teamleden je branch reviewen en mergen naar main                      |
+| `git merge main`           | Haalt wijzigingen van main in je branch (conflicten oplossen indien nodig) |
+| Commando                                 | Wat het doet                                         |
+| ---------------------------------------- | ---------------------------------------------------- |
+| `git log`                                | Laat een overzicht van commits zien                  |
+| `git diff`                               | Laat verschillen tussen bestanden of commits zien    |
+| `git reset --hard`                       | Terug naar een eerdere staat (voorzichtig gebruiken) |
+| `git config --global user.name "Naam"`   | Stelt je Git-gebruikersnaam in                       |
+| `git config --global user.email "email"` | Stelt je Git-email in                                |
