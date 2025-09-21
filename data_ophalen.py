@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import streamlit as st
 
-def download_datasets()
+def download_datasets():
     os.environ["KAGGLE_USERNAME"] = st.secrets["kaggle"]["username"]
     os.environ["KAGGLE_KEY"] = st.secrets["kaggle"]["key"]
     
