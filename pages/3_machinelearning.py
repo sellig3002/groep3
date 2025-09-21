@@ -80,6 +80,11 @@ else:
 
     st.plotly_chart(fig, use_container_width=True)
 
+st.markdown("""
+In deze plot zijn alle mogelijke combinaties (hopelijk, code runnen duurde bijna 2 uur) te maken en de impact die elke variabele heeft op de totale nauwkeurigheid. Ook is weer een slider aanwezig die laat zien hoe accuraat de modellen zijn op basis van de tolerantie op de gok van de score. In de volgende plot
+zullen deze opties gebruikt worden in combinatie met het verschil tussen de training data en de test data. Eventuele afwijkingen van de verwachting (dat de test data wat slechter zal zijn dan de training data) zullen hierna ook zo goed mogelijk verklaard worden.
+""")
+
 
 path3 = os.path.join("bestanden", "model_tolerance_results_all_features_prediction.csv")
 df3 = pd.read_csv(path3)
@@ -117,8 +122,20 @@ else:
         barmode="group",
         facet_col="Model",  # optional: split per model
         category_orders={"Dataset": ["Train (validation)", "Test (prediction)"]},
+        color_discrete_map={
+        "Train (validation)": "steelblue",
+        "Test (prediction)": "orange"},
         title=f"Accuracy comparison (tolerance={tolerance})"
     )
     fig.update_yaxes(range=[0, 1.05])
 
     st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("""
+Te zien in het figuur hierboven, de dataset waarop het model getrained is, is heel goed te voorspellen. De dataset die "voorspeld" moet worden is heel slecht te voorspellen. Dat kan diverse redenen hebben. De belangrijkste is dat de test data veel meer mediaan waardes heeft, omdat een significant gedeelte
+van de data voor kwam als NaN waarde. Dit is te zien in de analyse, als beide datasets geladen zijn. Door te vergelijken hoeveel de training data en de test data aan NaN waardes hebben in de verschillende kolommen die overeen komen is al te zien dat de test data veel minder accuraat zal zijn op de werkelijkheid
+dan de training data ooit zou kunnen voorspellen.
+
+Een ander probleem kan de spreiding van de data in beide datasets zijn. De trainig dataset heeft een attendance tussen de 60 en 100%, terwijl die van de test data niet boven de 92% uit komt. De training data had ook perfecte scores, terwijl de test data dit niet heeft. De totale hoeveelheid uren die gestudeerd zijn
+is ook verschillend bij de minima en maxima, namelijk 1 tegenover 0 en 33 tegenover 44. Dit zorgt ervoor dat de data niet perfect kan worden vergeleken met elkaar (waar meer gelet op had moeten worden, of de keuze moeten maken om één dataset te kiezen ipv twee) en resulteert ook in afwijkende nauwkeurigheden.
+""")
