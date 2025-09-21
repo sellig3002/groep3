@@ -83,6 +83,7 @@ else:
 
 path3 = os.path.join("bestanden", "model_tolerance_results_all_features_prediction.csv")
 df3 = pd.read_csv(path3)
+df4 = df2.copy()
 
 tolerance = st.slider("Select tolerance:", 0, 5, 0, key="3rd plot tolerance slider")
 st.subheader("Select variables:")
@@ -91,7 +92,7 @@ for feat in all_features:
     if st.checkbox(feat, value=True, key=f"df3_{feat}"):
         selected_features_pred.append(feat)
 
-sub3 = df3[df3["Tolerance"] == tolerance]
+sub3 = df4[df4["Tolerance"] == tolerance]
 sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features_pred))]
 
 if sub2.empty or sub3.empty:
