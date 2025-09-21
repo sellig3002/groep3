@@ -43,5 +43,7 @@ fig.update_yaxes(range=[0, 1.05])
 st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("""
-In het figuur hierboven zijn verschillende modellen te zien die gefit zijn op de grote dataset. 
+Door de tolerance aan te passen, is te zien dat het model behoorlijk goed in de buurt zit van de exacte waarde. Om een exacte waarde te geven tussen de 60 en 100 is behoorlijk moeilijk. Door 1 punt erboven of eronder te mogen zitten, zijn bijna alle modellen gelijk al ±50% correct.
+De errorbars zijn aanwezig omdat met de modellen een willekeurig beginpunt gekozen kan worden. Dit beginpunt beïnvloedt hoe accuraat het model is aan het eind en door het model honderd keer een voorspelling te geven, kan een standaarddeviatie uit gehaald worden, die aan geeft in welke hoeveelheid het model
+kan afwijken in nauwkeurigheid.
 """)
