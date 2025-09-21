@@ -51,26 +51,25 @@ kan afwijken in nauwkeurigheid.
 path2 = os.path.join("bestanden", "model_tolerance_results_all_features.csv")
 df2 = pd.read_csv(path2)
 
-st.sidebar.header("Opties")
-tolerance = st.sidebar.slider("Select tolerance:", 0, 5, 0)
+tolerance = st.slider("Select tolerance:", 0, 5, 0)
 
 all_features = sorted(set(
     f for subset in df2["Features"].unique() for f in subset.split(", ")
 ))
-selected_features = st.sidebar.multiselect(
+selected_features = st.multiselect(
     "Select features to include:",
     options=all_features,
     default=all_features
 )
 
 sub2 = df2[df2["Tolerance"] == tolerance]
-sub = sub[sub["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
+sub2 = sub2[sub2["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
 
-if sub.empty:
+if sub2.empty:
     st.warning("No results for this combination of features and tolerance.")
 else:
     fig = px.bar(
-        sub,
+        sub2,
         x="Model",
         y="Mean",
         error_y="Std",
