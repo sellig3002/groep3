@@ -72,7 +72,7 @@ else:
         y="Mean",
         error_y="Std",
         color="Model",
-        title=f"Accuracy with tolerance {tolerance} and features {', '.join(selected_features)}"
+        title=f"Accuracy with tolerance {tolerance} and features: \n {', '.join(selected_features)}"
     )
     
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
