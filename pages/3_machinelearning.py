@@ -92,18 +92,21 @@ for feat in all_features:
     if st.checkbox(feat, value=True, key=f"df3_{feat}"):
         selected_features_pred.append(feat)
 
-sub3 = df4[df4["Tolerance"] == tolerance]
+sub3 = df3[df3["Tolerance"] == tolerance]
 sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features_pred))]
+sub4 = df4[df4["Tolerance"] == tolerance]
+sub4 = sub4[sub4["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
 
-if sub2.empty or sub3.empty:
+
+if sub4.empty or sub3.empty:
     st.warning("No results for this combination of features and tolerance.")
 else:
-    sub2 = sub2.copy()
-    sub2["Dataset"] = "Train (validation)"
+    sub4 = sub4.copy()
+    sub4["Dataset"] = "Train (validation)"
     sub3 = sub3.copy()
     sub3["Dataset"] = "Test (prediction)"
 
-    combined = pd.concat([sub2, sub3], ignore_index=True)
+    combined = pd.concat([sub4, sub3], ignore_index=True)
 
     fig = px.bar(
         combined,
