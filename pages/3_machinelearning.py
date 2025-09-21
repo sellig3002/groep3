@@ -21,6 +21,7 @@ fig = px.bar(
     color="Model",
     title=f"Accuracy with {tolerance} points leeway of tolerance")
 
+fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
 fig.update_yaxes(range=[0, 1.05])
 
 st.plotly_chart(fig, use_container_width=True)
