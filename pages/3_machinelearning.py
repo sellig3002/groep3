@@ -100,7 +100,7 @@ for feat in all_features:
 sub3 = df3[df3["Tolerance"] == tolerance]
 sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features_pred))]
 sub4 = df4[df4["Tolerance"] == tolerance]
-sub4 = sub4[sub4["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
+sub4 = sub4[sub4["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features_pred))]
 
 
 if sub4.empty or sub3.empty:
