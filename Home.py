@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import subprocess
+import os
 
 
 st.title("Student Performance Dashboard")
@@ -10,6 +11,7 @@ Dit dashboard analyseert factoren die het examenresultaat van studenten beïnvlo
 Gebruik het menu links om naar **Analyse**, **Relaties**, **Machine Learning** of **Findings** te gaan.
 """)
 
+script_path = os.path.join(os.path.dirname(__file__), 'data_ophalen.py')
 if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
