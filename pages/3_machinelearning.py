@@ -52,15 +52,13 @@ path2 = os.path.join("bestanden", "model_tolerance_results_all_features.csv")
 df2 = pd.read_csv(path2)
 
 tolerance = st.slider("Select tolerance:", 0, 5, 0)
+all_features = sorted(set(",".join(df2["Features"]).replace(" ", "").split(",")))
 
-all_features = sorted(set(
-    f for subset in df2["Features"].unique() for f in subset.split(", ")
-))
-selected_features = st.multiselect(
-    "Select features to include:",
-    options=all_features,
-    default=all_features
-)
+st.subheader("Select features:")
+selected_features = []
+for feat in all_features:
+    if st.checkbox(feat, value=True):
+        selected_features.append(feat)
 
 sub2 = df2[df2["Tolerance"] == tolerance]
 sub2 = sub2[sub2["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
