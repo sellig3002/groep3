@@ -1,0 +1,745 @@
+Model,Features,Tolerance,Mean,Std
+DecisionTree,Attendance,0,0.01925,0.012542755162670883
+DecisionTree,Attendance,1,0.05107999999999999,0.014495335369516207
+DecisionTree,Attendance,2,0.09076000000000001,0.013129594914781745
+DecisionTree,Attendance,3,0.14723,0.011068980225491565
+DecisionTree,Attendance,4,0.19152000000000002,0.012302155514503562
+DecisionTree,Attendance,5,0.2072,0.010303475926191906
+DecisionTree,"Attendance, Gender",0,0.01952,0.011571019179332684
+DecisionTree,"Attendance, Gender",1,0.05313,0.01302883747924603
+DecisionTree,"Attendance, Gender",2,0.09512999999999999,0.011166919942853583
+DecisionTree,"Attendance, Gender",3,0.1423,0.01063679529470291
+DecisionTree,"Attendance, Gender",4,0.18558,0.011806675050901327
+DecisionTree,"Attendance, Gender",5,0.21021,0.00915665569049876
+DecisionTree,"Attendance, Parental_Involvement",0,0.01939,0.007808173650577692
+DecisionTree,"Attendance, Parental_Involvement",1,0.04735,0.010219188724249017
+DecisionTree,"Attendance, Parental_Involvement",2,0.09569000000000001,0.010043033667798056
+DecisionTree,"Attendance, Parental_Involvement",3,0.13801,0.011655401487653006
+DecisionTree,"Attendance, Parental_Involvement",4,0.18491,0.007656904192830275
+DecisionTree,"Attendance, Parental_Involvement",5,0.20839,0.00754634837105826
+DecisionTree,"Attendance, Parental_Involvement, Gender",0,0.01831,0.007234450409483274
+DecisionTree,"Attendance, Parental_Involvement, Gender",1,0.050949999999999995,0.009412408530415282
+DecisionTree,"Attendance, Parental_Involvement, Gender",2,0.09258,0.00880676966425215
+DecisionTree,"Attendance, Parental_Involvement, Gender",3,0.13777,0.010854273468328153
+DecisionTree,"Attendance, Parental_Involvement, Gender",4,0.18277000000000002,0.0074289292565611325
+DecisionTree,"Attendance, Parental_Involvement, Gender",5,0.21050000000000002,0.007537783614444086
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",0,0.01853,0.007171006437964851
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",1,0.05239,0.008817905337746292
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",2,0.09638,0.01089414632921847
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",3,0.14116,0.012491386931592003
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",4,0.18317,0.008727125945735357
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores",5,0.20966,0.008691363413170452
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.01803,0.007144193092959828
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.05238,0.00819556421042949
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09666999999999999,0.010867479984436193
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.14163,0.01269268062365635
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.18252,0.008994364116411224
+DecisionTree,"Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21050999999999997,0.009040308164945025
+DecisionTree,"Attendance, Previous_Scores",0,0.01955,0.008274794391537605
+DecisionTree,"Attendance, Previous_Scores",1,0.051129999999999995,0.010945830810003054
+DecisionTree,"Attendance, Previous_Scores",2,0.09812,0.011082135957194235
+DecisionTree,"Attendance, Previous_Scores",3,0.14182,0.010021572690547088
+DecisionTree,"Attendance, Previous_Scores",4,0.18489999999999998,0.008451286436054722
+DecisionTree,"Attendance, Previous_Scores",5,0.21443,0.007426753440546326
+DecisionTree,"Attendance, Previous_Scores, Gender",0,0.01933,0.008399200298633535
+DecisionTree,"Attendance, Previous_Scores, Gender",1,0.05238,0.010902487900669389
+DecisionTree,"Attendance, Previous_Scores, Gender",2,0.09929,0.011574349033770996
+DecisionTree,"Attendance, Previous_Scores, Gender",3,0.14211000000000001,0.010440688664929138
+DecisionTree,"Attendance, Previous_Scores, Gender",4,0.18442,0.00880676966425216
+DecisionTree,"Attendance, Previous_Scores, Gender",5,0.21411999999999998,0.00759622447421259
+DecisionTree,Gender,0,0.032409999999999994,0.02425916259265702
+DecisionTree,Gender,1,0.06931,0.02337126570398062
+DecisionTree,Gender,2,0.088,0.0
+DecisionTree,Gender,3,0.088,0.0
+DecisionTree,Gender,4,0.141,0.024094510879979585
+DecisionTree,Gender,5,0.24186,0.023873835050112913
+DecisionTree,Hours_Studied,0,0.0202,0.00994733607301447
+DecisionTree,Hours_Studied,1,0.04829,0.009889587422837182
+DecisionTree,Hours_Studied,2,0.07325,0.008623874542293162
+DecisionTree,Hours_Studied,3,0.1183,0.0102469507659596
+DecisionTree,Hours_Studied,4,0.16969,0.007980652108744506
+DecisionTree,Hours_Studied,5,0.19682,0.01073028377532439
+DecisionTree,"Hours_Studied, Attendance",0,0.01796,0.00800873260758517
+DecisionTree,"Hours_Studied, Attendance",1,0.05311,0.008037657581281957
+DecisionTree,"Hours_Studied, Attendance",2,0.0875,0.007729649070137322
+DecisionTree,"Hours_Studied, Attendance",3,0.13467,0.010533309359389672
+DecisionTree,"Hours_Studied, Attendance",4,0.18123,0.009906487008444764
+DecisionTree,"Hours_Studied, Attendance",5,0.21708,0.008649960588454625
+DecisionTree,"Hours_Studied, Attendance, Gender",0,0.017920000000000002,0.00792984389773369
+DecisionTree,"Hours_Studied, Attendance, Gender",1,0.052779999999999994,0.007724524763911554
+DecisionTree,"Hours_Studied, Attendance, Gender",2,0.08781,0.007682717059357412
+DecisionTree,"Hours_Studied, Attendance, Gender",3,0.13470000000000001,0.01004183169737393
+DecisionTree,"Hours_Studied, Attendance, Gender",4,0.18084,0.009221976387133539
+DecisionTree,"Hours_Studied, Attendance, Gender",5,0.21727,0.008785726486693627
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",0,0.014690000000000002,0.005313780445809049
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",1,0.053399999999999996,0.00668935533123146
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",2,0.08955,0.0089232133995404
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",3,0.1369,0.009680241252524173
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",4,0.17948999999999998,0.007597839937585664
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement",5,0.21578,0.010163889337485259
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",0,0.01471,0.0053111185072430645
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",1,0.05311,0.0066997587775059235
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",2,0.09011,0.009000443311191944
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",3,0.13665000000000002,0.009638281208102648
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",4,0.17962,0.007420664567696255
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Gender",5,0.21556999999999998,0.010241779162042133
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",0,0.018260000000000002,0.00814095519672916
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",1,0.05524,0.00825125640876784
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",2,0.09258,0.008620131476182175
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",3,0.13592,0.009877716989734667
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",4,0.18038,0.008283828715142426
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",5,0.21399,0.009330621900522229
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.01823,0.008140005956367413
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.055229999999999994,0.008207972227097756
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09258,0.008649376692670819
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13585,0.009827168072401748
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.1804,0.008275557291496958
+DecisionTree,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21399,0.009330621900522229
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",0,0.02215,0.008942436564895035
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",1,0.05537,0.008805020376943131
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",2,0.09272999999999999,0.008121370984425395
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",3,0.13375,0.010287164700526456
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",4,0.17859999999999998,0.008915994027305621
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores",5,0.21403,0.009016768889803113
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",0,0.022080000000000002,0.008985600152522373
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",1,0.055380000000000006,0.008800573902314611
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",2,0.09268000000000001,0.008153675505097335
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",3,0.1337,0.010219312277954098
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",4,0.17849,0.008945960094936818
+DecisionTree,"Hours_Studied, Attendance, Previous_Scores, Gender",5,0.21416000000000002,0.009076242714812215
+DecisionTree,"Hours_Studied, Gender",0,0.012190000000000001,0.005982626361542075
+DecisionTree,"Hours_Studied, Gender",1,0.041890000000000004,0.00850180610639334
+DecisionTree,"Hours_Studied, Gender",2,0.07458999999999999,0.007597308135720893
+DecisionTree,"Hours_Studied, Gender",3,0.12408,0.011244464406897277
+DecisionTree,"Hours_Studied, Gender",4,0.16649,0.012369312793760977
+DecisionTree,"Hours_Studied, Gender",5,0.20325,0.010814669237062716
+DecisionTree,"Hours_Studied, Parental_Involvement",0,0.012929999999999999,0.005172294100554054
+DecisionTree,"Hours_Studied, Parental_Involvement",1,0.04616,0.008875935005520391
+DecisionTree,"Hours_Studied, Parental_Involvement",2,0.07707,0.0070327588448415475
+DecisionTree,"Hours_Studied, Parental_Involvement",3,0.12866,0.009709123065811391
+DecisionTree,"Hours_Studied, Parental_Involvement",4,0.17143999999999998,0.007304792947099863
+DecisionTree,"Hours_Studied, Parental_Involvement",5,0.19611,0.009353760114671974
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",0,0.01319,0.005334649458819655
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",1,0.04551,0.0086322100591361
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",2,0.07727,0.0059862721743548
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",3,0.12829000000000002,0.00947222947954342
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",4,0.16945,0.008338028980084396
+DecisionTree,"Hours_Studied, Parental_Involvement, Gender",5,0.2016,0.00924634790038474
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",0,0.02281,0.010384229495837534
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",1,0.04838,0.01284781158899299
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",2,0.08111,0.008682846202819564
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",3,0.11769,0.011635625371151212
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",4,0.17057,0.009821903989542868
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores",5,0.19195,0.012001998991750492
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",0,0.020819999999999998,0.010264560980441987
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",1,0.048170000000000004,0.01173362172510597
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",2,0.08079,0.00827347593459992
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",3,0.11931000000000001,0.010555954803720121
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",4,0.16757000000000002,0.009279340580890517
+DecisionTree,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",5,0.19364,0.010566308186252602
+DecisionTree,"Hours_Studied, Previous_Scores",0,0.024390000000000002,0.013258803060075161
+DecisionTree,"Hours_Studied, Previous_Scores",1,0.04657,0.01488152199775604
+DecisionTree,"Hours_Studied, Previous_Scores",2,0.08304,0.009125300603876627
+DecisionTree,"Hours_Studied, Previous_Scores",3,0.11042,0.008035502033432193
+DecisionTree,"Hours_Studied, Previous_Scores",4,0.17326999999999998,0.010798292981445318
+DecisionTree,"Hours_Studied, Previous_Scores",5,0.19771,0.011884371368662413
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",0,0.01967,0.01143276789837797
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",1,0.04564,0.012542871934434966
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",2,0.08201,0.008897275715156588
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",3,0.11394,0.009736757388599372
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",4,0.16687000000000002,0.01056739314967499
+DecisionTree,"Hours_Studied, Previous_Scores, Gender",5,0.19916,0.01358528615819335
+DecisionTree,Parental_Involvement,0,0.04938000000000001,0.019216880205914923
+DecisionTree,Parental_Involvement,1,0.05442,0.01152089011712676
+DecisionTree,Parental_Involvement,2,0.08248,0.00987239800779134
+DecisionTree,Parental_Involvement,3,0.09892,0.018351054795875153
+DecisionTree,Parental_Involvement,4,0.19276,0.007681961029094412
+DecisionTree,Parental_Involvement,5,0.19510000000000002,0.005842201051942081
+DecisionTree,"Parental_Involvement, Gender",0,0.028849999999999997,0.00805332605859595
+DecisionTree,"Parental_Involvement, Gender",1,0.05607,0.005628669397994448
+DecisionTree,"Parental_Involvement, Gender",2,0.08227000000000001,0.006807386065921706
+DecisionTree,"Parental_Involvement, Gender",3,0.11694,0.014832955391848444
+DecisionTree,"Parental_Involvement, Gender",4,0.1771,0.01333295454007389
+DecisionTree,"Parental_Involvement, Gender",5,0.21156,0.010976853516892404
+DecisionTree,"Parental_Involvement, Previous_Scores",0,0.02923,0.011014091066456736
+DecisionTree,"Parental_Involvement, Previous_Scores",1,0.048940000000000004,0.010699589343578201
+DecisionTree,"Parental_Involvement, Previous_Scores",2,0.07732,0.008429002361375918
+DecisionTree,"Parental_Involvement, Previous_Scores",3,0.11198000000000001,0.011083685344147986
+DecisionTree,"Parental_Involvement, Previous_Scores",4,0.17534,0.011385991747792904
+DecisionTree,"Parental_Involvement, Previous_Scores",5,0.20017,0.01008354495144831
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",0,0.0282,0.00968910666051251
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",1,0.04979,0.009412322677310748
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",2,0.08151,0.007654793177209859
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",3,0.11289999999999999,0.010774549136316989
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",4,0.17611999999999997,0.010425570739893584
+DecisionTree,"Parental_Involvement, Previous_Scores, Gender",5,0.20395,0.011942940943663686
+DecisionTree,Previous_Scores,0,0.03442,0.01730310884660834
+DecisionTree,Previous_Scores,1,0.04607,0.016941524504165868
+DecisionTree,Previous_Scores,2,0.07524,0.007890820648389524
+DecisionTree,Previous_Scores,3,0.10236,0.00783223074122809
+DecisionTree,Previous_Scores,4,0.17801999999999998,0.01326496105984453
+DecisionTree,Previous_Scores,5,0.19940999999999998,0.014256733302003104
+DecisionTree,"Previous_Scores, Gender",0,0.031509999999999996,0.011487802050853589
+DecisionTree,"Previous_Scores, Gender",1,0.046349999999999995,0.012854567242420064
+DecisionTree,"Previous_Scores, Gender",2,0.07948000000000001,0.005999124515251782
+DecisionTree,"Previous_Scores, Gender",3,0.10018,0.007577718534085189
+DecisionTree,"Previous_Scores, Gender",4,0.17149999999999999,0.01352924255235318
+DecisionTree,"Previous_Scores, Gender",5,0.20268,0.014629346457643891
+LogisticRegression,Attendance,0,0.026269999999999998,0.00467284223417125
+LogisticRegression,Attendance,1,0.052969999999999996,0.01303023291031168
+LogisticRegression,Attendance,2,0.10183,0.009589614542342518
+LogisticRegression,Attendance,3,0.14972,0.006721111019268562
+LogisticRegression,Attendance,4,0.19971,0.0014305116694258834
+LogisticRegression,Attendance,5,0.20046,0.0023243115631137387
+LogisticRegression,"Attendance, Gender",0,0.02606,0.006819194537583903
+LogisticRegression,"Attendance, Gender",1,0.058410000000000004,0.008245102617415819
+LogisticRegression,"Attendance, Gender",2,0.1017,0.00616523324863715
+LogisticRegression,"Attendance, Gender",3,0.14284,0.006529992961773231
+LogisticRegression,"Attendance, Gender",4,0.18825,0.009149018824690732
+LogisticRegression,"Attendance, Gender",5,0.21178,0.005407775920287416
+LogisticRegression,"Attendance, Parental_Involvement",0,0.02565,0.005127416897464458
+LogisticRegression,"Attendance, Parental_Involvement",1,0.05518,0.013205737963155073
+LogisticRegression,"Attendance, Parental_Involvement",2,0.10132999999999999,0.009433504656330546
+LogisticRegression,"Attendance, Parental_Involvement",3,0.14257,0.007887152319891616
+LogisticRegression,"Attendance, Parental_Involvement",4,0.19597,0.003468341669933047
+LogisticRegression,"Attendance, Parental_Involvement",5,0.20015,0.003715582801601317
+LogisticRegression,"Attendance, Parental_Involvement, Gender",0,0.022789999999999998,0.004164047661746073
+LogisticRegression,"Attendance, Parental_Involvement, Gender",1,0.05531,0.00853595485300416
+LogisticRegression,"Attendance, Parental_Involvement, Gender",2,0.10122,0.006275783181839104
+LogisticRegression,"Attendance, Parental_Involvement, Gender",3,0.14074,0.0053496341798842505
+LogisticRegression,"Attendance, Parental_Involvement, Gender",4,0.18462,0.006293784010570846
+LogisticRegression,"Attendance, Parental_Involvement, Gender",5,0.21117,0.006528964216273032
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",0,0.028140000000000002,0.003915831632455279
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",1,0.05248,0.008713718430663736
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",2,0.08994999999999999,0.008341662504161466
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",3,0.1356,0.004572645941803378
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",4,0.19076,0.0043184359308537775
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores",5,0.20393,0.0029068188728567012
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.02532,0.0041264850403071604
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.054290000000000005,0.005749475162696562
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09574999999999999,0.006739563574276688
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13678,0.004879518108348095
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.18192999999999998,0.004454608327736055
+LogisticRegression,"Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21053999999999998,0.004302735798714044
+LogisticRegression,"Attendance, Previous_Scores",0,0.02682,0.005860982094419937
+LogisticRegression,"Attendance, Previous_Scores",1,0.05405,0.011425980496352616
+LogisticRegression,"Attendance, Previous_Scores",2,0.10153000000000001,0.009598458419996625
+LogisticRegression,"Attendance, Previous_Scores",3,0.1439,0.00546152751785458
+LogisticRegression,"Attendance, Previous_Scores",4,0.198,0.0038164979451922433
+LogisticRegression,"Attendance, Previous_Scores",5,0.20579999999999998,0.0025226248955475612
+LogisticRegression,"Attendance, Previous_Scores, Gender",0,0.02427,0.0053783234968123326
+LogisticRegression,"Attendance, Previous_Scores, Gender",1,0.053810000000000004,0.006038086190879098
+LogisticRegression,"Attendance, Previous_Scores, Gender",2,0.10079,0.006931548429922685
+LogisticRegression,"Attendance, Previous_Scores, Gender",3,0.14242,0.006463854433804501
+LogisticRegression,"Attendance, Previous_Scores, Gender",4,0.19001,0.0035118702030730495
+LogisticRegression,"Attendance, Previous_Scores, Gender",5,0.21184,0.00277332167829719
+LogisticRegression,Gender,0,0.03329,0.0246643303561883
+LogisticRegression,Gender,1,0.07018999999999999,0.023227767691261073
+LogisticRegression,Gender,2,0.088,0.0
+LogisticRegression,Gender,3,0.088,0.0
+LogisticRegression,Gender,4,0.14115,0.024261360975090334
+LogisticRegression,Gender,5,0.24201,0.023714418322270447
+LogisticRegression,Hours_Studied,0,0.030780000000000002,0.005753488182192283
+LogisticRegression,Hours_Studied,1,0.03361,0.005344486444321414
+LogisticRegression,Hours_Studied,2,0.07762,0.008050070581282896
+LogisticRegression,Hours_Studied,3,0.11337,0.007825953970958142
+LogisticRegression,Hours_Studied,4,0.18353000000000003,0.005961924643480956
+LogisticRegression,Hours_Studied,5,0.18597000000000002,0.005807440368730758
+LogisticRegression,"Hours_Studied, Attendance",0,0.02377,0.0038713007758335825
+LogisticRegression,"Hours_Studied, Attendance",1,0.043680000000000004,0.0028880806950308873
+LogisticRegression,"Hours_Studied, Attendance",2,0.0933,0.0036306773723119743
+LogisticRegression,"Hours_Studied, Attendance",3,0.13085000000000002,0.0039141674811774595
+LogisticRegression,"Hours_Studied, Attendance",4,0.19361,0.0031427164470671973
+LogisticRegression,"Hours_Studied, Attendance",5,0.20772,0.0051797585841329525
+LogisticRegression,"Hours_Studied, Attendance, Gender",0,0.02278,0.0035063578617342325
+LogisticRegression,"Hours_Studied, Attendance, Gender",1,0.04376,0.002749178022242247
+LogisticRegression,"Hours_Studied, Attendance, Gender",2,0.09374,0.0037026335154177695
+LogisticRegression,"Hours_Studied, Attendance, Gender",3,0.13456,0.003755991846034116
+LogisticRegression,"Hours_Studied, Attendance, Gender",4,0.18575,0.003468108674447474
+LogisticRegression,"Hours_Studied, Attendance, Gender",5,0.21119,0.0034485980169959344
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",0,0.01994,0.003868599308026176
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",1,0.04857,0.0023452294152387326
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",2,0.09240999999999999,0.005470019297142481
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",3,0.13283,0.0027781797688923586
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",4,0.18504,0.004990738897946353
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement",5,0.20751999999999998,0.002890178422369675
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",0,0.020659999999999998,0.0029617766985580146
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",1,0.04856,0.0025517670645094446
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",2,0.09214,0.004532753973674128
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",3,0.13121,0.003668856095638678
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",4,0.18028,0.0045328876786294575
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Gender",5,0.20947,0.0023288051299611423
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",0,0.01824,0.0030752186421407006
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",1,0.05513,0.0035835059859745115
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",2,0.09834,0.002954947913537086
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",3,0.13168000000000002,0.003044717233225942
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",4,0.18463000000000002,0.003483452948504464
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",5,0.20649,0.002907652737939043
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.021640000000000003,0.0033710592406601824
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.05334,0.0029651851935963854
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09803,0.0031413019240082245
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13231,0.003457373908537278
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.18085,0.0033405225503042087
+LogisticRegression,"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.20840999999999998,0.0023098165566236063
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",0,0.023889999999999998,0.0031491380895525534
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",1,0.049429999999999995,0.003143873310733019
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",2,0.09269,0.0030573475002645275
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",3,0.13088,0.0030093457123038622
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",4,0.19061,0.0037359703889986557
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores",5,0.21006999999999998,0.0039009322895011585
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",0,0.023530000000000002,0.0033528368811373984
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",1,0.048209999999999996,0.002694157539655922
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",2,0.09535,0.0031119677752739425
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",3,0.12971,0.0027053818416428615
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",4,0.18711,0.002628111431612004
+LogisticRegression,"Hours_Studied, Attendance, Previous_Scores, Gender",5,0.21151,0.0022984184285563137
+LogisticRegression,"Hours_Studied, Gender",0,0.02734,0.005255530997016957
+LogisticRegression,"Hours_Studied, Gender",1,0.04008,0.006484916453906049
+LogisticRegression,"Hours_Studied, Gender",2,0.07685,0.008713596712997892
+LogisticRegression,"Hours_Studied, Gender",3,0.11167999999999999,0.008975702330360132
+LogisticRegression,"Hours_Studied, Gender",4,0.16293,0.009799252702903091
+LogisticRegression,"Hours_Studied, Gender",5,0.20423000000000002,0.009740942438797156
+LogisticRegression,"Hours_Studied, Parental_Involvement",0,0.03474,0.006232239411384007
+LogisticRegression,"Hours_Studied, Parental_Involvement",1,0.04845,0.004255418411694186
+LogisticRegression,"Hours_Studied, Parental_Involvement",2,0.08015,0.00761494410599144
+LogisticRegression,"Hours_Studied, Parental_Involvement",3,0.11616,0.008747547996987268
+LogisticRegression,"Hours_Studied, Parental_Involvement",4,0.18075,0.004508969736071428
+LogisticRegression,"Hours_Studied, Parental_Involvement",5,0.18646000000000001,0.005068062008820779
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",0,0.03,0.006124961348053674
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",1,0.052649999999999995,0.005013869652163775
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",2,0.08143,0.00717213322167784
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",3,0.11608,0.00843115914002603
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",4,0.16995000000000002,0.006645990664994333
+LogisticRegression,"Hours_Studied, Parental_Involvement, Gender",5,0.20096,0.0074710484978057524
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",0,0.034620000000000005,0.005919971334901936
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",1,0.05041,0.004492631453139394
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",2,0.08792,0.005977533696342419
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",3,0.11515,0.006705003408430955
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",4,0.17872,0.003278580624155965
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores",5,0.18663,0.004011737828428031
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",0,0.02871,0.005271028113540789
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",1,0.051820000000000005,0.004229239251504299
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",2,0.08807999999999999,0.004721923935914855
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",3,0.11824,0.006868343425757149
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",4,0.17214,0.004566058353644733
+LogisticRegression,"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",5,0.19615000000000002,0.00541672494141147
+LogisticRegression,"Hours_Studied, Previous_Scores",0,0.03148,0.004524858388319289
+LogisticRegression,"Hours_Studied, Previous_Scores",1,0.03588,0.003718042278382321
+LogisticRegression,"Hours_Studied, Previous_Scores",2,0.07941,0.007226627250255917
+LogisticRegression,"Hours_Studied, Previous_Scores",3,0.11237,0.007617967861801094
+LogisticRegression,"Hours_Studied, Previous_Scores",4,0.18295999999999998,0.0035531178512183416
+LogisticRegression,"Hours_Studied, Previous_Scores",5,0.18800999999999998,0.00386252390401547
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",0,0.029249999999999998,0.005011854633634827
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",1,0.040060000000000005,0.005323513687387115
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",2,0.08134000000000001,0.005309073612812562
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",3,0.11116999999999999,0.007585279470557738
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",4,0.16933,0.0080842220692313
+LogisticRegression,"Hours_Studied, Previous_Scores, Gender",5,0.19948,0.006832010219281261
+LogisticRegression,Parental_Involvement,0,0.051550000000000006,0.01457642693605749
+LogisticRegression,Parental_Involvement,1,0.053040000000000004,0.0115486848260796
+LogisticRegression,Parental_Involvement,2,0.08731,0.003943271983948598
+LogisticRegression,Parental_Involvement,3,0.08975,0.007842354573246817
+LogisticRegression,Parental_Involvement,4,0.19318000000000002,0.005636067115041529
+LogisticRegression,Parental_Involvement,5,0.19462,0.004754115707638607
+LogisticRegression,"Parental_Involvement, Gender",0,0.03578,0.01081392667355434
+LogisticRegression,"Parental_Involvement, Gender",1,0.059190000000000006,0.007672191685074433
+LogisticRegression,"Parental_Involvement, Gender",2,0.08527,0.005321682349624321
+LogisticRegression,"Parental_Involvement, Gender",3,0.09652,0.013560548840238176
+LogisticRegression,"Parental_Involvement, Gender",4,0.16390999999999997,0.017911169699380326
+LogisticRegression,"Parental_Involvement, Gender",5,0.21975,0.015266239904052372
+LogisticRegression,"Parental_Involvement, Previous_Scores",0,0.04748,0.012213984367986317
+LogisticRegression,"Parental_Involvement, Previous_Scores",1,0.0554,0.005268545886444928
+LogisticRegression,"Parental_Involvement, Previous_Scores",2,0.08094,0.005432450197794284
+LogisticRegression,"Parental_Involvement, Previous_Scores",3,0.09820999999999999,0.009767287186824142
+LogisticRegression,"Parental_Involvement, Previous_Scores",4,0.18169000000000002,0.006017978116116796
+LogisticRegression,"Parental_Involvement, Previous_Scores",5,0.19188,0.006785724766453509
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",0,0.04046,0.008819652069456178
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",1,0.060430000000000005,0.005857318654314603
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",2,0.08101000000000001,0.003960652430694681
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",3,0.1058,0.010211896409718825
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",4,0.17068000000000003,0.009297420083120924
+LogisticRegression,"Parental_Involvement, Previous_Scores, Gender",5,0.20783000000000001,0.01039915983397338
+LogisticRegression,Previous_Scores,0,0.05558,0.016828415123105192
+LogisticRegression,Previous_Scores,1,0.06121000000000001,0.019161353677323394
+LogisticRegression,Previous_Scores,2,0.08238,0.006643566037676575
+LogisticRegression,Previous_Scores,3,0.09263,0.005631181227788893
+LogisticRegression,Previous_Scores,4,0.18005,0.008591015979239912
+LogisticRegression,Previous_Scores,5,0.1932,0.01284719833467613
+LogisticRegression,"Previous_Scores, Gender",0,0.04282,0.015996451626734746
+LogisticRegression,"Previous_Scores, Gender",1,0.06823,0.016088050022776332
+LogisticRegression,"Previous_Scores, Gender",2,0.08471999999999999,0.004456478656989394
+LogisticRegression,"Previous_Scores, Gender",3,0.09156,0.0054500857189070315
+LogisticRegression,"Previous_Scores, Gender",4,0.15477,0.014718129410129989
+LogisticRegression,"Previous_Scores, Gender",5,0.22280999999999998,0.016795679458862286
+SVM (linear),Attendance,0,0.019889999999999998,0.010806745929083258
+SVM (linear),Attendance,1,0.05619999999999999,0.021846110071418325
+SVM (linear),Attendance,2,0.09781000000000001,0.023716633126746448
+SVM (linear),Attendance,3,0.15292999999999998,0.010764940287523174
+SVM (linear),Attendance,4,0.2,0.0
+SVM (linear),Attendance,5,0.2,0.0
+SVM (linear),"Attendance, Gender",0,0.01922,0.008836997524754956
+SVM (linear),"Attendance, Gender",1,0.05814999999999999,0.01808307149649845
+SVM (linear),"Attendance, Gender",2,0.09748000000000001,0.019821160002340528
+SVM (linear),"Attendance, Gender",3,0.15676,0.012177243223540066
+SVM (linear),"Attendance, Gender",4,0.19408999999999998,0.006672868327576365
+SVM (linear),"Attendance, Gender",5,0.20553999999999997,0.005507423823505602
+SVM (linear),"Attendance, Parental_Involvement",0,0.021670000000000002,0.005782339884982078
+SVM (linear),"Attendance, Parental_Involvement",1,0.05853,0.02118197012994444
+SVM (linear),"Attendance, Parental_Involvement",2,0.09355000000000001,0.018996211743557204
+SVM (linear),"Attendance, Parental_Involvement",3,0.15426,0.006456724628578561
+SVM (linear),"Attendance, Parental_Involvement",4,0.19658,0.002778634211408204
+SVM (linear),"Attendance, Parental_Involvement",5,0.19943999999999998,0.002815254263056271
+SVM (linear),"Attendance, Parental_Involvement, Gender",0,0.02004,0.004249587026875659
+SVM (linear),"Attendance, Parental_Involvement, Gender",1,0.059340000000000004,0.017867763421787565
+SVM (linear),"Attendance, Parental_Involvement, Gender",2,0.09327999999999999,0.016560925168125195
+SVM (linear),"Attendance, Parental_Involvement, Gender",3,0.15091,0.006144875503172945
+SVM (linear),"Attendance, Parental_Involvement, Gender",4,0.18772,0.005262944599612075
+SVM (linear),"Attendance, Parental_Involvement, Gender",5,0.20933,0.005894793114146233
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",0,0.01992,0.0034397556878242364
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",1,0.05628999999999999,0.021295560783668246
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",2,0.09301,0.018854838888066622
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",3,0.15269,0.003100000000000001
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",4,0.19203,0.005457744011674577
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores",5,0.20426,0.0034219139307549605
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.01922,0.0035121146756547537
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.056760000000000005,0.0179545554276919
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09398,0.01620885155360701
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.14920999999999998,0.004697506323206563
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.18332,0.004536896995021423
+SVM (linear),"Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21081,0.004189199677670422
+SVM (linear),"Attendance, Previous_Scores",0,0.01925,0.005819464031692406
+SVM (linear),"Attendance, Previous_Scores",1,0.05563,0.022412863820727248
+SVM (linear),"Attendance, Previous_Scores",2,0.09874000000000001,0.022137139139756276
+SVM (linear),"Attendance, Previous_Scores",3,0.15426,0.007043329102667638
+SVM (linear),"Attendance, Previous_Scores",4,0.19923000000000002,0.003296324858953918
+SVM (linear),"Attendance, Previous_Scores",5,0.2029,0.0020913482191489137
+SVM (linear),"Attendance, Previous_Scores, Gender",0,0.01892,0.0059385404457882275
+SVM (linear),"Attendance, Previous_Scores, Gender",1,0.05824,0.01865157398508802
+SVM (linear),"Attendance, Previous_Scores, Gender",2,0.09795999999999999,0.019078212228041222
+SVM (linear),"Attendance, Previous_Scores, Gender",3,0.15433,0.007180297115486702
+SVM (linear),"Attendance, Previous_Scores, Gender",4,0.19264,0.004723720499091306
+SVM (linear),"Attendance, Previous_Scores, Gender",5,0.20825,0.003962896094341292
+SVM (linear),Gender,0,0.03419,0.025039643315625273
+SVM (linear),Gender,1,0.06974,0.02331497979472173
+SVM (linear),Gender,2,0.088,0.0
+SVM (linear),Gender,3,0.088,0.0
+SVM (linear),Gender,4,0.14304,0.025746597303862757
+SVM (linear),Gender,5,0.24021,0.025068107228109583
+SVM (linear),Hours_Studied,0,0.02875,0.004214872657050449
+SVM (linear),Hours_Studied,1,0.02889,0.004170349887217879
+SVM (linear),Hours_Studied,2,0.08641,0.006383525196895045
+SVM (linear),Hours_Studied,3,0.08988999999999998,0.0075436708369977104
+SVM (linear),Hours_Studied,4,0.19302,0.004861682794666843
+SVM (linear),Hours_Studied,5,0.19372,0.004581649828556865
+SVM (linear),"Hours_Studied, Attendance",0,0.02114,0.0036070077696762795
+SVM (linear),"Hours_Studied, Attendance",1,0.04275,0.003226703606099599
+SVM (linear),"Hours_Studied, Attendance",2,0.09481,0.004912764244827199
+SVM (linear),"Hours_Studied, Attendance",3,0.13688,0.0052460278383561825
+SVM (linear),"Hours_Studied, Attendance",4,0.19249,0.0029041767205599672
+SVM (linear),"Hours_Studied, Attendance",5,0.2079,0.004665584290062365
+SVM (linear),"Hours_Studied, Attendance, Gender",0,0.02059,0.0037634472699289096
+SVM (linear),"Hours_Studied, Attendance, Gender",1,0.04181,0.0032151629394593247
+SVM (linear),"Hours_Studied, Attendance, Gender",2,0.09536,0.004421069846299491
+SVM (linear),"Hours_Studied, Attendance, Gender",3,0.13849,0.0048398493172971185
+SVM (linear),"Hours_Studied, Attendance, Gender",4,0.18498,0.0030317511691290186
+SVM (linear),"Hours_Studied, Attendance, Gender",5,0.21104,0.0037977132938949326
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",0,0.0195,0.003026816175722629
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",1,0.050469999999999994,0.0034302722452842827
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",2,0.09558,0.005333674231529403
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",3,0.13363000000000003,0.0029461668299502323
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",4,0.18035999999999996,0.004906231864793095
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement",5,0.20829,0.003042775845915184
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",0,0.02099,0.003141430543333062
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",1,0.04981,0.0036616908386672684
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",2,0.0964,0.005171796085256529
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",3,0.13226000000000002,0.0038445028313427014
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",4,0.17837,0.004229896003688529
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Gender",5,0.20872,0.0024580521153995554
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",0,0.01671,0.002041464121060117
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",1,0.05811,0.002991216096736199
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",2,0.10235,0.0026794202599243195
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",3,0.13094,0.00262397647193197
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",4,0.18028,0.0028606702612210236
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",5,0.20775,0.0022846656144164643
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.01964,0.0024598595673145846
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.0558,0.003241149565362652
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.10195,0.0029928365653791866
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13065000000000002,0.002455153310442709
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.17883,0.0027452622181614373
+SVM (linear),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.20855,0.002426182935469549
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",0,0.02237,0.0023383279876394106
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",1,0.052809999999999996,0.0037001091984978063
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",2,0.09426,0.00416968375614538
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",3,0.13303,0.00280495593152153
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",4,0.18619,0.0031291881026582905
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores",5,0.21336,0.0035491356181982744
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",0,0.021869999999999997,0.0028450027072114367
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",1,0.04964,0.00379664924038888
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",2,0.09679,0.004142158223375195
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",3,0.13245,0.003239201173503164
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",4,0.18452,0.0026033389593700133
+SVM (linear),"Hours_Studied, Attendance, Previous_Scores, Gender",5,0.21245,0.0027131367660166187
+SVM (linear),"Hours_Studied, Gender",0,0.01752,0.006434565747868023
+SVM (linear),"Hours_Studied, Gender",1,0.03619,0.006738544338206865
+SVM (linear),"Hours_Studied, Gender",2,0.07601999999999999,0.010712948834344012
+SVM (linear),"Hours_Studied, Gender",3,0.1021,0.012237135071064418
+SVM (linear),"Hours_Studied, Gender",4,0.16232,0.013522058297687548
+SVM (linear),"Hours_Studied, Gender",5,0.22131,0.012515602383836873
+SVM (linear),"Hours_Studied, Parental_Involvement",0,0.03239,0.005681611309365247
+SVM (linear),"Hours_Studied, Parental_Involvement",1,0.037290000000000004,0.005371633312545119
+SVM (linear),"Hours_Studied, Parental_Involvement",2,0.08528000000000001,0.007418350166439917
+SVM (linear),"Hours_Studied, Parental_Involvement",3,0.09123999999999999,0.009921021452787344
+SVM (linear),"Hours_Studied, Parental_Involvement",4,0.18811,0.004902885153486961
+SVM (linear),"Hours_Studied, Parental_Involvement",5,0.19492,0.00605976963925264
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",0,0.02188,0.0070097767223335815
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",1,0.04115,0.005103722151330321
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",2,0.07856,0.009841491223130234
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",3,0.10116,0.014320797901138495
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",4,0.16804000000000002,0.010621038774360285
+SVM (linear),"Hours_Studied, Parental_Involvement, Gender",5,0.21844000000000002,0.011339855520786995
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",0,0.03252,0.004231865648704703
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",1,0.03791,0.004070328703873403
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",2,0.07718,0.009740449868274237
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",3,0.1025,0.013012426073689427
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",4,0.18619,0.0035066891346209614
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores",5,0.1948,0.004510369645986277
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",0,0.02344,0.006166576575918494
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",1,0.040209999999999996,0.004040939484722818
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",2,0.07438,0.008468336747716593
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",3,0.10626,0.012196720870791463
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",4,0.17193000000000003,0.009301086066702205
+SVM (linear),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",5,0.212,0.010822722075860264
+SVM (linear),"Hours_Studied, Previous_Scores",0,0.027680000000000003,0.0038556792691123343
+SVM (linear),"Hours_Studied, Previous_Scores",1,0.03074,0.003732521556765234
+SVM (linear),"Hours_Studied, Previous_Scores",2,0.07749,0.010723800585142329
+SVM (linear),"Hours_Studied, Previous_Scores",3,0.10154999999999999,0.013491767036892456
+SVM (linear),"Hours_Studied, Previous_Scores",4,0.19019000000000003,0.003920149966209944
+SVM (linear),"Hours_Studied, Previous_Scores",5,0.19496000000000002,0.0038479169230201254
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",0,0.022010000000000002,0.006280473185544498
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",1,0.03713,0.006559217432997121
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",2,0.07177,0.00927019226588449
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",3,0.10686,0.011003231848466669
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",4,0.16832999999999998,0.012098964810881525
+SVM (linear),"Hours_Studied, Previous_Scores, Gender",5,0.21411999999999998,0.01265731712361181
+SVM (linear),Parental_Involvement,0,0.05178,0.015664783897183347
+SVM (linear),Parental_Involvement,1,0.054000000000000006,0.013891353316710977
+SVM (linear),Parental_Involvement,2,0.08661999999999999,0.005489714901246665
+SVM (linear),Parental_Involvement,3,0.08988999999999998,0.007523558957962606
+SVM (linear),Parental_Involvement,4,0.19109,0.010047458093538601
+SVM (linear),Parental_Involvement,5,0.19661,0.009149592914717602
+SVM (linear),"Parental_Involvement, Gender",0,0.031059999999999997,0.012478522963617745
+SVM (linear),"Parental_Involvement, Gender",1,0.0616,0.016177675102349277
+SVM (linear),"Parental_Involvement, Gender",2,0.08618,0.005232725307276712
+SVM (linear),"Parental_Involvement, Gender",3,0.09076,0.007866461219710685
+SVM (linear),"Parental_Involvement, Gender",4,0.14853,0.024669719303329143
+SVM (linear),"Parental_Involvement, Gender",5,0.23086,0.023927508365177857
+SVM (linear),"Parental_Involvement, Previous_Scores",0,0.04812,0.009728932172243838
+SVM (linear),"Parental_Involvement, Previous_Scores",1,0.05431,0.010247142986898317
+SVM (linear),"Parental_Involvement, Previous_Scores",2,0.08424999999999999,0.006604826823902148
+SVM (linear),"Parental_Involvement, Previous_Scores",3,0.09118,0.006069263513471764
+SVM (linear),"Parental_Involvement, Previous_Scores",4,0.18041000000000001,0.009414254182790153
+SVM (linear),"Parental_Involvement, Previous_Scores",5,0.19601,0.011268526832274793
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",0,0.03307,0.010714150937103244
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",1,0.06287,0.01350918505343978
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",2,0.08257999999999999,0.0061087451802123525
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",3,0.09459999999999999,0.007908568425793287
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",4,0.1483,0.022206787569151332
+SVM (linear),"Parental_Involvement, Previous_Scores, Gender",5,0.22871,0.022281620364340792
+SVM (linear),Previous_Scores,0,0.05907,0.017930987229662035
+SVM (linear),Previous_Scores,1,0.0642,0.02132717714205246
+SVM (linear),Previous_Scores,2,0.08557000000000001,0.007765834264145859
+SVM (linear),Previous_Scores,3,0.09043,0.007765834264145863
+SVM (linear),Previous_Scores,4,0.1808,0.011667099559068314
+SVM (linear),Previous_Scores,5,0.19353,0.015735474302198574
+SVM (linear),"Previous_Scores, Gender",0,0.035949999999999996,0.01678766682942444
+SVM (linear),"Previous_Scores, Gender",1,0.06843,0.017949567395816806
+SVM (linear),"Previous_Scores, Gender",2,0.08424999999999999,0.007065887607142338
+SVM (linear),"Previous_Scores, Gender",3,0.09144000000000001,0.00696792072227571
+SVM (linear),"Previous_Scores, Gender",4,0.14577,0.023484727467918895
+SVM (linear),"Previous_Scores, Gender",5,0.23437000000000002,0.02649095710012774
+SVM (rbf),Attendance,0,0.03063,0.0065838108764275476
+SVM (rbf),Attendance,1,0.05021,0.017812318402405873
+SVM (rbf),Attendance,2,0.10899,0.017727166277846672
+SVM (rbf),Attendance,3,0.13596,0.01176102105098091
+SVM (rbf),Attendance,4,0.19998000000000002,0.0026361128407355596
+SVM (rbf),Attendance,5,0.20108,0.003320216617005332
+SVM (rbf),"Attendance, Gender",0,0.0317,0.0075898656513841275
+SVM (rbf),"Attendance, Gender",1,0.061,0.007120889741252193
+SVM (rbf),"Attendance, Gender",2,0.10202,0.0067314728902913455
+SVM (rbf),"Attendance, Gender",3,0.13783,0.007314100122780694
+SVM (rbf),"Attendance, Gender",4,0.19327000000000003,0.007647347199645065
+SVM (rbf),"Attendance, Gender",5,0.20887999999999998,0.005295853151859537
+SVM (rbf),"Attendance, Parental_Involvement",0,0.02901,0.0049553460570836575
+SVM (rbf),"Attendance, Parental_Involvement",1,0.05711,0.011728317626302345
+SVM (rbf),"Attendance, Parental_Involvement",2,0.09807,0.00964758304373995
+SVM (rbf),"Attendance, Parental_Involvement",3,0.13451000000000002,0.007628356191331012
+SVM (rbf),"Attendance, Parental_Involvement",4,0.1955,0.0038573031873042995
+SVM (rbf),"Attendance, Parental_Involvement",5,0.20122,0.0041404142670788706
+SVM (rbf),"Attendance, Parental_Involvement, Gender",0,0.02467,0.005440318989459232
+SVM (rbf),"Attendance, Parental_Involvement, Gender",1,0.05777,0.005950732065990884
+SVM (rbf),"Attendance, Parental_Involvement, Gender",2,0.09237999999999999,0.00735228954926026
+SVM (rbf),"Attendance, Parental_Involvement, Gender",3,0.13755,0.007134175821106783
+SVM (rbf),"Attendance, Parental_Involvement, Gender",4,0.18647,0.005117715320434519
+SVM (rbf),"Attendance, Parental_Involvement, Gender",5,0.21329,0.00609569313101265
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",0,0.02419,0.004130925496126196
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",1,0.050730000000000004,0.006616256379921234
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",2,0.09305,0.008063353940369774
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",3,0.14055,0.005694894044828061
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",4,0.19289,0.004756484144212132
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores",5,0.20279,0.003793388719838498
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.02093,0.0038618962213195765
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.05276,0.004313755306978464
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09171,0.007186259335170363
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13832,0.004294417329745696
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.18463000000000002,0.00555169461798046
+SVM (rbf),"Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21272,0.006083725599640175
+SVM (rbf),"Attendance, Previous_Scores",0,0.0259,0.006135671491081041
+SVM (rbf),"Attendance, Previous_Scores",1,0.04654,0.00844282015212998
+SVM (rbf),"Attendance, Previous_Scores",2,0.10857,0.010130716368619456
+SVM (rbf),"Attendance, Previous_Scores",3,0.14154,0.005591154630397023
+SVM (rbf),"Attendance, Previous_Scores",4,0.20181000000000002,0.0036919103483429795
+SVM (rbf),"Attendance, Previous_Scores",5,0.20606,0.0020928932175823026
+SVM (rbf),"Attendance, Previous_Scores, Gender",0,0.02812,0.006017281509758105
+SVM (rbf),"Attendance, Previous_Scores, Gender",1,0.05364,0.006436198137460222
+SVM (rbf),"Attendance, Previous_Scores, Gender",2,0.09765,0.006714036254614866
+SVM (rbf),"Attendance, Previous_Scores, Gender",3,0.14092000000000002,0.006596111496077579
+SVM (rbf),"Attendance, Previous_Scores, Gender",4,0.19347,0.006476772796585191
+SVM (rbf),"Attendance, Previous_Scores, Gender",5,0.20785,0.003364625844088326
+SVM (rbf),Gender,0,0.03419,0.025039643315625273
+SVM (rbf),Gender,1,0.06974,0.02331497979472173
+SVM (rbf),Gender,2,0.088,0.0
+SVM (rbf),Gender,3,0.088,0.0
+SVM (rbf),Gender,4,0.14304,0.025746597303862757
+SVM (rbf),Gender,5,0.24021,0.025068107228109583
+SVM (rbf),Hours_Studied,0,0.020489999999999998,0.005578629859661879
+SVM (rbf),Hours_Studied,1,0.020780000000000003,0.005765764511670626
+SVM (rbf),Hours_Studied,2,0.07285,0.008509501522510949
+SVM (rbf),Hours_Studied,3,0.11808999999999999,0.010859148728657838
+SVM (rbf),Hours_Studied,4,0.1881,0.004443813086469188
+SVM (rbf),Hours_Studied,5,0.18818000000000001,0.004349341062364245
+SVM (rbf),"Hours_Studied, Attendance",0,0.02621,0.004654301800756507
+SVM (rbf),"Hours_Studied, Attendance",1,0.05196,0.004769261849160578
+SVM (rbf),"Hours_Studied, Attendance",2,0.09222,0.004174429132930466
+SVM (rbf),"Hours_Studied, Attendance",3,0.13128,0.005378746051907374
+SVM (rbf),"Hours_Studied, Attendance",4,0.18636,0.006565166726094174
+SVM (rbf),"Hours_Studied, Attendance",5,0.21527000000000002,0.0065317484162923335
+SVM (rbf),"Hours_Studied, Attendance, Gender",0,0.023940000000000003,0.004361956747454824
+SVM (rbf),"Hours_Studied, Attendance, Gender",1,0.05252,0.003409671331060896
+SVM (rbf),"Hours_Studied, Attendance, Gender",2,0.09598000000000001,0.003700887144532465
+SVM (rbf),"Hours_Studied, Attendance, Gender",3,0.13402,0.004249729640836228
+SVM (rbf),"Hours_Studied, Attendance, Gender",4,0.18221,0.0061943196526814785
+SVM (rbf),"Hours_Studied, Attendance, Gender",5,0.21836,0.004656959601206862
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",0,0.01747,0.0037347805636457217
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",1,0.0555,0.003304420057921196
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",2,0.08650000000000001,0.00512963266844043
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",3,0.13044,0.004511086231707283
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",4,0.17608000000000001,0.004317406628984584
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement",5,0.21215,0.004617435118191388
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",0,0.01843,0.0037152565608758866
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",1,0.054959999999999995,0.003381231620686059
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",2,0.08611,0.004034935819899373
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",3,0.13074,0.004125848550616745
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",4,0.17059999999999997,0.0044107307166211624
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Gender",5,0.21605,0.004340029790895294
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",0,0.02169,0.0036144910367222464
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",1,0.06149,0.0035547521188210333
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",2,0.09441000000000001,0.0038352300972679457
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",3,0.13507000000000002,0.003403073477154011
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",4,0.17724,0.0036930729587686087
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores",5,0.20693999999999999,0.003323683000357989
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",0,0.021110000000000004,0.003287241943629887
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",1,0.05792,0.0035238867430406697
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",2,0.09304,0.0038400336698860608
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",3,0.13703,0.0036665426976288332
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",4,0.17631,0.003365586385337882
+SVM (rbf),"Hours_Studied, Attendance, Parental_Involvement, Previous_Scores, Gender",5,0.21345,0.003932190383503985
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",0,0.03018,0.00397817276973469
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",1,0.058390000000000004,0.004927545745166356
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",2,0.09537000000000001,0.004482637661471249
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",3,0.13360000000000002,0.0037091206178251667
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",4,0.18255,0.006349063400266698
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores",5,0.21664999999999998,0.005313172120287281
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",0,0.02903,0.004354157423507661
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",1,0.05617,0.0035506579273666614
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",2,0.09321,0.003993163349445343
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",3,0.13617,0.0034320385908216257
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",4,0.18241,0.006337470737883956
+SVM (rbf),"Hours_Studied, Attendance, Previous_Scores, Gender",5,0.21808,0.004177089992815669
+SVM (rbf),"Hours_Studied, Gender",0,0.014649999999999998,0.006069255192019741
+SVM (rbf),"Hours_Studied, Gender",1,0.026699999999999998,0.005741044849119015
+SVM (rbf),"Hours_Studied, Gender",2,0.06441,0.007478041930285701
+SVM (rbf),"Hours_Studied, Gender",3,0.12315,0.010065818748154922
+SVM (rbf),"Hours_Studied, Gender",4,0.1707,0.012148492029295598
+SVM (rbf),"Hours_Studied, Gender",5,0.21289000000000002,0.01223993711609911
+SVM (rbf),"Hours_Studied, Parental_Involvement",0,0.021640000000000003,0.007541829480914555
+SVM (rbf),"Hours_Studied, Parental_Involvement",1,0.04095,0.009692624499946838
+SVM (rbf),"Hours_Studied, Parental_Involvement",2,0.07804,0.009966529846025503
+SVM (rbf),"Hours_Studied, Parental_Involvement",3,0.12265000000000001,0.014933099971120354
+SVM (rbf),"Hours_Studied, Parental_Involvement",4,0.18224999999999997,0.005578412576054848
+SVM (rbf),"Hours_Studied, Parental_Involvement",5,0.18966999999999998,0.006126700959445033
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",0,0.02068,0.0066710288758651225
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",1,0.04311,0.007559721816270354
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",2,0.07609,0.0070468776666325695
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",3,0.13508,0.009875671566475307
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",4,0.17881,0.008592567847984811
+SVM (rbf),"Hours_Studied, Parental_Involvement, Gender",5,0.20517,0.00783549937815392
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",0,0.02108,0.007482882823720771
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",1,0.03934,0.00901314416154361
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",2,0.07623,0.00819319130976348
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",3,0.11811999999999999,0.011677726359582717
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",4,0.18042999999999998,0.0056016862540568015
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores",5,0.19374,0.005809466325739316
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",0,0.01851,0.005596707184866055
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",1,0.04396,0.007291783115953258
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",2,0.07657,0.007443056556891862
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",3,0.13141,0.009353976089710125
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",4,0.17325,0.007733405172080118
+SVM (rbf),"Hours_Studied, Parental_Involvement, Previous_Scores, Gender",5,0.20537,0.007224614211502954
+SVM (rbf),"Hours_Studied, Previous_Scores",0,0.022789999999999998,0.008380225642438384
+SVM (rbf),"Hours_Studied, Previous_Scores",1,0.02463,0.008832509967344072
+SVM (rbf),"Hours_Studied, Previous_Scores",2,0.07444,0.009744534857855433
+SVM (rbf),"Hours_Studied, Previous_Scores",3,0.11299,0.010387925197025144
+SVM (rbf),"Hours_Studied, Previous_Scores",4,0.18635000000000002,0.004862503408115973
+SVM (rbf),"Hours_Studied, Previous_Scores",5,0.19015,0.005099762323635856
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",0,0.017079999999999998,0.006790784010314826
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",1,0.03422,0.007511042376112492
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",2,0.07122,0.009743767756931102
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",3,0.11445,0.011121346295945628
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",4,0.16553,0.011752029697894831
+SVM (rbf),"Hours_Studied, Previous_Scores, Gender",5,0.21387,0.011623430707589795
+SVM (rbf),Parental_Involvement,0,0.04961,0.01926523796736999
+SVM (rbf),Parental_Involvement,1,0.05465,0.011500000000000002
+SVM (rbf),Parental_Involvement,2,0.08363,0.009068376621284235
+SVM (rbf),Parental_Involvement,3,0.09747,0.016510452764992564
+SVM (rbf),Parental_Involvement,4,0.19278000000000003,0.007685195002224882
+SVM (rbf),Parental_Involvement,5,0.19512000000000002,0.005838361469322079
+SVM (rbf),"Parental_Involvement, Gender",0,0.029179999999999998,0.008035753439058052
+SVM (rbf),"Parental_Involvement, Gender",1,0.05621,0.006008907529407462
+SVM (rbf),"Parental_Involvement, Gender",2,0.08331,0.006455277380609299
+SVM (rbf),"Parental_Involvement, Gender",3,0.11473000000000001,0.014839787496096197
+SVM (rbf),"Parental_Involvement, Gender",4,0.17626,0.014940028261166194
+SVM (rbf),"Parental_Involvement, Gender",5,0.21209,0.012172244466553215
+SVM (rbf),"Parental_Involvement, Previous_Scores",0,0.044649999999999995,0.01299912584473559
+SVM (rbf),"Parental_Involvement, Previous_Scores",1,0.055170000000000004,0.007086842268128544
+SVM (rbf),"Parental_Involvement, Previous_Scores",2,0.07758,0.0066396117691055094
+SVM (rbf),"Parental_Involvement, Previous_Scores",3,0.10445,0.011371037993538897
+SVM (rbf),"Parental_Involvement, Previous_Scores",4,0.17815,0.009338066981420458
+SVM (rbf),"Parental_Involvement, Previous_Scores",5,0.19489,0.010046251625216827
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",0,0.02942,0.005251608700140743
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",1,0.05843,0.00536779585334915
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",2,0.08101000000000001,0.005135526882768346
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",3,0.11682000000000001,0.008777128220436333
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",4,0.1702,0.008067893720848648
+SVM (rbf),"Parental_Involvement, Previous_Scores, Gender",5,0.20775,0.009079197000936711
+SVM (rbf),Previous_Scores,0,0.04650000000000001,0.02137661329489768
+SVM (rbf),Previous_Scores,1,0.0572,0.021448081546380834
+SVM (rbf),Previous_Scores,2,0.08010999999999999,0.008781172467215857
+SVM (rbf),Previous_Scores,3,0.09484999999999999,0.008013089039789586
+SVM (rbf),Previous_Scores,4,0.17326,0.015938404163300886
+SVM (rbf),Previous_Scores,5,0.19940999999999998,0.01676642568656273
+SVM (rbf),"Previous_Scores, Gender",0,0.03831,0.017892888379058718
+SVM (rbf),"Previous_Scores, Gender",1,0.0649,0.016149240842775855
+SVM (rbf),"Previous_Scores, Gender",2,0.08285999999999999,0.00429239402485914
+SVM (rbf),"Previous_Scores, Gender",3,0.09148999999999999,0.00341267690184167
+SVM (rbf),"Previous_Scores, Gender",4,0.15186,0.01340060303181023
+SVM (rbf),"Previous_Scores, Gender",5,0.2238,0.014898308493234926
