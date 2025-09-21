@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import subprocess
 import os
-
+import sys
 
 st.title("Student Performance Dashboard")
 st.markdown("""
@@ -15,7 +15,7 @@ script_path = os.path.join(os.path.dirname(__file__), 'data_ophalen.py')
 if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
-            subprocess.run(['python3',script_path], check=True)
+            subprocess.run([sys.executable, script_path], check=True)
         except Exception as e:
             st.error(f'Fout bij verversen: {e}')
 
