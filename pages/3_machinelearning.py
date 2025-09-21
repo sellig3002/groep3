@@ -14,7 +14,7 @@ De twee dataframes zijn handmatig aangepast om te zorgen dat ze dezelfde kolomme
 """)
 
 with st.expander("Show/Hide DataFrame Columns"):
-    st.write(list(df.columns))
+    st.write("Hours_Studied", "Attendance", "Parental_Involvement", "Previous_Scores", "Gender", "Exam_Score"))
 
 st.markdown("""
 Alle kolommen komen overeen met elkaar en kunne benut worden door de modellen om een voorspelling te maken. Hieronder staat een barplot waarin alle variabelen worden gebruikt. Belangrijk om te weten is dat niet alle variabelen nuttig hoeven te zijn voor een voorspelling. Later kan dit ook zelf bekeken worden waarin alle variabelen gebruikt kunnen worden.
