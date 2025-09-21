@@ -15,7 +15,7 @@ script_path = os.path.join(os.path.dirname(__file__), 'data_ophalen.py')
 if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
-            subprocess.run(['python','data_ophalen.py'], check=True)
+            subprocess.run(['python3',script_path], check=True)
         except Exception as e:
             st.error(f'Fout bij verversen: {e}')
 
