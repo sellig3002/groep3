@@ -54,7 +54,7 @@ df2 = pd.read_csv(path2)
 tolerance = st.slider("Select tolerance:", 0, 5, 0, key="2nd plot tolerance slider")
 all_features = sorted(set(",".join(df2["Features"]).replace(" ", "").split(",")))
 
-st.subheader("Select features:")
+st.subheader("Select variables:")
 selected_features = []
 for feat in all_features:
     if st.checkbox(feat, value=True):
@@ -76,6 +76,45 @@ else:
     )
 
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
+    fig.update_yaxes(range=[0, 1.05])
+
+    st.plotly_chart(fig, use_container_width=True)
+
+
+path3 = os.path.join("bestanden", "model_tolerance_results_all_features_prediction.csv")
+df3 = pd.read_csv(path3)
+
+tolerance = st.slider("Select tolerance:", 0, 5, 0, key="3rd plot tolerance slider")
+st.subheader("Select variables:")
+selected_features = []
+for feat in all_features:
+    if st.checkbox(feat, value=True):
+        selected_features.append(feat)
+
+sub3 = df3[df3["Tolerance"] == tolerance]
+sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
+
+if sub2.empty or sub3.empty:
+    st.warning("No results for this combination of features and tolerance.")
+else:
+    sub2 = sub2.copy()
+    sub2["Dataset"] = "Train (validation)"
+    sub3 = sub3.copy()
+    sub3["Dataset"] = "Test (prediction)"
+
+    combined = pd.concat([sub2, sub3], ignore_index=True)
+
+    fig = px.bar(
+        combined,
+        x="Model",
+        y="Mean",
+        error_y="Std",
+        color="Dataset",
+        barmode="group",
+        facet_col="Model",  # optional: split per model
+        category_orders={"Dataset": ["Train (validation)", "Test (prediction)"]},
+        title=f"Accuracy comparison (tolerance={tolerance})"
+    )
     fig.update_yaxes(range=[0, 1.05])
 
     st.plotly_chart(fig, use_container_width=True)
