@@ -47,3 +47,36 @@ Door de tolerance aan te passen, is te zien dat het model behoorlijk goed in de 
 De errorbars zijn aanwezig omdat met de modellen een willekeurig beginpunt gekozen kan worden. Dit beginpunt beïnvloedt hoe accuraat het model is aan het eind en door het model honderd keer een voorspelling te geven, kan een standaarddeviatie uit gehaald worden, die aan geeft in welke hoeveelheid het model
 kan afwijken in nauwkeurigheid.
 """)
+
+path2 = os.path.join("bestanden", "model_tolerance_results_all_features.csv")
+df2 = pd.read_csv(path2)
+
+st.sidebar.header("Opties")
+tolerance = st.sidebar.slider("Select tolerance:", 0, 5, 0)
+
+all_features = sorted(set(
+    f for subset in df2["Features"].unique() for f in subset.split(", ")
+))
+selected_features = st.sidebar.multiselect(
+    "Select features to include:",
+    options=all_features,
+    default=all_features
+)
+
+sub2 = df2[df2["Tolerance"] == tolerance]
+sub = sub[sub["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
+
+if sub.empty:
+    st.warning("No results for this combination of features and tolerance.")
+else:
+    fig = px.bar(
+        sub,
+        x="Model",
+        y="Mean",
+        error_y="Std",
+        color="Model",
+        title=f"Accuracy with tolerance {tolerance} and features {', '.join(selected_features)}"
+    )
+    fig.update_yaxes(range=[0, 1.05])
+
+    st.plotly_chart(fig, use_container_width=True)
