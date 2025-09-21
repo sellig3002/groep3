@@ -13,7 +13,7 @@ if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
             download_datasets()
-            st.succes('Data succesvol opgehaald!')
+            st.success('Data succesvol opgehaald!')
         except Exception as e:
             st.error(f'Fout bij verversen: {e}')
 
