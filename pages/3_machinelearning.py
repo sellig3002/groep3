@@ -51,7 +51,7 @@ kan afwijken in nauwkeurigheid.
 path2 = os.path.join("bestanden", "model_tolerance_results_all_features.csv")
 df2 = pd.read_csv(path2)
 
-tolerance = st.slider("Select tolerance:", 0, 5, 0)
+tolerance = st.slider("Select tolerance:", 0, 5, 0, key="2nd plot tolerance slider")
 all_features = sorted(set(",".join(df2["Features"]).replace(" ", "").split(",")))
 
 st.subheader("Select features:")
