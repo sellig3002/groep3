@@ -57,7 +57,7 @@ all_features = sorted(set(",".join(df2["Features"]).replace(" ", "").split(","))
 st.subheader("Select variables:")
 selected_features = []
 for feat in all_features:
-    if st.checkbox(feat, value=True):
+    if st.checkbox(feat, value=True, key=f"df2_{feat}"):
         selected_features.append(feat)
 
 sub2 = df2[df2["Tolerance"] == tolerance]
@@ -86,13 +86,13 @@ df3 = pd.read_csv(path3)
 
 tolerance = st.slider("Select tolerance:", 0, 5, 0, key="3rd plot tolerance slider")
 st.subheader("Select variables:")
-selected_features = []
+selected_features_pred = []
 for feat in all_features:
-    if st.checkbox(feat, value=True):
-        selected_features.append(feat)
+    if st.checkbox(feat, value=True, key=f"df3_{feat}"):
+        selected_features_pred.append(feat)
 
 sub3 = df3[df3["Tolerance"] == tolerance]
-sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features))]
+sub3 = sub3[sub3["Features"].apply(lambda x: set(x.split(", ")) == set(selected_features_pred))]
 
 if sub2.empty or sub3.empty:
     st.warning("No results for this combination of features and tolerance.")
