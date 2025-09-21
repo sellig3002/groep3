@@ -74,7 +74,7 @@ else:
         color="Model",
         title=f"Accuracy with tolerance: {tolerance}"
     )
-    st.caption(f"Features included: {', '.join(selected_features)}")
+
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
     fig.update_yaxes(range=[0, 1.05])
 
