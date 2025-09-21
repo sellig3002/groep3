@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import subprocess
-import os
-import sys
+from data_ophalen import download_datasets
 
 st.title("Student Performance Dashboard")
 st.markdown("""
@@ -11,11 +9,11 @@ Dit dashboard analyseert factoren die het examenresultaat van studenten beïnvlo
 Gebruik het menu links om naar **Analyse**, **Relaties**, **Machine Learning** of **Findings** te gaan.
 """)
 
-script_path = os.path.join(os.path.dirname(__file__), 'data_ophalen.py')
 if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
-            subprocess.run([sys.executable, script_path], check=True)
+            download_datasets()
+            st.succes('Data succesvol opgehaald!')
         except Exception as e:
             st.error(f'Fout bij verversen: {e}')
 
