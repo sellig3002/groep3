@@ -32,7 +32,7 @@ sub = df[df["Tolerance"] == tolerance]
 fig = px.bar(
     sub,
     x="Model",
-    y="Mean",
+    y="Probability [-]",
     error_y="Std",
     color="Model",
     title=f"Accuracy with {tolerance} points of leeway of tolerance")
@@ -69,7 +69,7 @@ else:
     fig = px.bar(
         sub2,
         x="Model",
-        y="Mean",
+        y="Probability [-]",
         error_y="Std",
         color="Model",
         title=f"Accuracy with tolerance: {tolerance}"
@@ -116,11 +116,10 @@ else:
     fig = px.bar(
         combined,
         x="Model",
-        y="Mean",
+        y="Probability [-]",
         error_y="Std",
         color="Dataset",
         barmode="group",
-        facet_col="Model",  # optional: split per model
         category_orders={"Dataset": ["Train (validation)", "Test (prediction)"]},
         color_discrete_map={
         "Train (validation)": "steelblue",
