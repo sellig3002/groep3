@@ -117,12 +117,11 @@ else:
 
     fig = px.bar(
         combined,
-        x="Dataset",
+        x="Model",
         y="Mean",
         error_y="Std",
         color="Dataset",
         barmode="group",
-        facet_col="Model",
         category_orders={"Dataset": ["Train (validation)", "Test (prediction)"]},
         color_discrete_map={
         "Train (validation)": "steelblue",
@@ -130,8 +129,8 @@ else:
         title=f"Accuracy comparison (tolerance={tolerance})"
     )
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
-    fig.update_yaxes(range=[0, 1.05])
-    fig.update_yaxes(title_text="Probability [-]")
+    fig.update_yaxes(range=[0, 1.05], title_text="Probability [-]")
+    fig.update_xaxes(title_text="Model")
 
     st.plotly_chart(fig, use_container_width=True)
 
