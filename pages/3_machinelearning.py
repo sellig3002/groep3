@@ -32,13 +32,14 @@ sub = df[df["Tolerance"] == tolerance]
 fig = px.bar(
     sub,
     x="Model",
-    y="Probability [-]",
+    y="Mean",
     error_y="Std",
     color="Model",
     title=f"Accuracy with {tolerance} points of leeway of tolerance")
 
 fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
 fig.update_yaxes(range=[0, 1.05])
+fig.update_yaxes(title_text="Probability [-]")
 
 st.plotly_chart(fig, use_container_width=True)
 
@@ -69,7 +70,7 @@ else:
     fig = px.bar(
         sub2,
         x="Model",
-        y="Probability [-]",
+        y="Mean",
         error_y="Std",
         color="Model",
         title=f"Accuracy with tolerance: {tolerance}"
@@ -77,6 +78,7 @@ else:
 
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
     fig.update_yaxes(range=[0, 1.05])
+    fig.update_yaxes(title_text="Probability [-]")
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -116,7 +118,7 @@ else:
     fig = px.bar(
         combined,
         x="Dataset",
-        y="Probability [-]",
+        y="Mean",
         error_y="Std",
         color="Dataset",
         barmode="group",
@@ -129,6 +131,7 @@ else:
     )
     fig.update_traces(error_y=dict(color='white', thickness=2, width=8))
     fig.update_yaxes(range=[0, 1.05])
+    fig.update_yaxes(title_text="Probability [-]")
 
     st.plotly_chart(fig, use_container_width=True)
 
