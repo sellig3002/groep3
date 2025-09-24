@@ -9,6 +9,11 @@ Dit dashboard analyseert factoren die het examenresultaat van studenten beïnvlo
 Gebruik het menu links om naar **Analyse**, **Relaties**, **Machine Learning** of **Findings** te gaan.
 """)
 
+try:
+    download_datasets()
+except Exception as e:
+    pass
+    
 if st.button('Data inladen'):
     with st.spinner('Data verversen'):
         try:
