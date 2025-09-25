@@ -50,6 +50,13 @@ with tab1:
 
     st.plotly_chart(fig3)
 
+    st.markdown('---')
+    st.write('''Wat we uit de dataset kunnen afleiden is vrij logisch: wie vaker naar school gaat en meer huiswerk maakt, behaalt hogere cijfers.
+            Er zijn echter nog enkele verbeterpunten voor de dataset. Zo geeft de data een vrij eentonig beeld van studenten, aangezien bijna iedereen een voldoende 
+            haalt. De laagste Exam_Score is namelijk 55, wat nog een voldoende is; dit probleem zien we ook terug in de aanvullende dataset. Hierdoor is het moeilijk 
+            om factoren te identificeren die mogelijk een negatieve invloed hebben op de cijfers. Daarnaast is de tweede dataset nog niet volledig opgeschoond, 
+            wat in de toekomst zeker verbeterd kan worden.''')
+
 with tab2:
     st.write("""Naast het overduidelijke verband tussen, tijd aan school besteden en een hogercijfer, zijn er ook nog zwakkere verbanden. Zoals
              Parental Involvement, Access to Resources en Previous Scores. Deze verbanden zijn logisch te verklaren en ook waarom ze minder sterk zijn. Als je
@@ -72,6 +79,13 @@ with tab2:
 
     fig3 = px.box(df, x='Access_to_Resources', y='Exam_Score', color='Access_to_Resources', category_orders={'Access_to_Resources': ["Low","Medium",'High']})
     st.plotly_chart(fig3)
+
+    st.markdown('---')
+    st.write('''Wat we uit de dataset kunnen afleiden is vrij logisch: wie vaker naar school gaat en meer huiswerk maakt, behaalt hogere cijfers.
+            Er zijn echter nog enkele verbeterpunten voor de dataset. Zo geeft de data een vrij eentonig beeld van studenten, aangezien bijna iedereen een voldoende 
+            haalt. De laagste Exam_Score is namelijk 55, wat nog een voldoende is; dit probleem zien we ook terug in de aanvullende dataset. Hierdoor is het moeilijk 
+            om factoren te identificeren die mogelijk een negatieve invloed hebben op de cijfers. Daarnaast is de tweede dataset nog niet volledig opgeschoond, 
+            wat in de toekomst zeker verbeterd kan worden.''')
 
 
 
