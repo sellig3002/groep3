@@ -46,7 +46,7 @@ with tab1:
         size_max = 10,
         labels = {
             'Hours_Studied': 'Aantal gestudeerde uren',
-            'Exam_Score': 'Examenscore op schaal 0 tot en met 100'
+            'Exam_Score': 'Examenscore'
         },
         title = 'Verband tussen examenscore en het aantal gestudeerde uren'
     )
@@ -66,7 +66,7 @@ with tab1:
         size_max = 10,
         labels = {
             'Attendance': 'Aanwezigheid van student in uren',
-            'Exam_Score': 'Examenscore op schaal 0 tot en met 100.'
+            'Exam_Score': 'Examenscore'
         },
         title = 'Verband tussen examenscore en het aantal bezochte lesuren',
         category_orders = {
